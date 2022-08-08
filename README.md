@@ -4,8 +4,8 @@
 ## Integrantes do grupo 
 * Carlos Alberto de Almeida Castro Neto - caacneto@gmail.com
 * Davi Malaquias dos Santos - davi.malaquias@gmail.com
-* Lucas Rayan Guerra - 
-* Heitor Ferraz Cornelio - 
+* Lucas Rayan Guerra - lucasrayanguerra24@gmail.com
+* Heitor Ferraz Cornelio - heitorfcornelio@hotmail.com
 
 
 ## Descrição geral do projeto 
