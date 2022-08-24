@@ -1,5 +1,6 @@
 # Projeto RuBank
 
+*Em desenvolvimento...* 👷‍♂️
 
 ## Integrantes do grupo 
 
@@ -14,7 +15,7 @@ O RuBank é um modelo de banco virtual onde as pessoas podem realizar o cadastro
 
 
 ## Requisitos do projeto
---
+*Em desenvolvimento...* 👷‍♂️
 
 ## Diagrama UML do RuBank
 
