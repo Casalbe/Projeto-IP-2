@@ -15,3 +15,7 @@ O RuBank é um modelo de banco virtual onde as pessoas podem realizar o cadastro
 
 ## Requisitos do projeto
 --
+
+## Diagrama UML do RuBank
+
+![Diagrama UML do RuBank](https://github.com/Casalbe/Projeto-IP-2/blob/main/Diagrama_UML.jpg)
