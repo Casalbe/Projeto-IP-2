@@ -25,3 +25,7 @@ O RuBank é um modelo de banco virtual onde os estudantes da UFRPE podem realiza
 ## Diagrama UML do RuBank
 
 ![Diagrama UML do RuBank](https://github.com/Casalbe/Projeto-IP-2/blob/main/Diagrama_UML.jpg)
+
+## Modelo navegacional
+
+![Diagrama UML do RuBank](https://raw.githubusercontent.com/Casalbe/Projeto-IP-2/main/modelo_navegacional.png)
