@@ -8,7 +8,7 @@ O Front-End do RuBank foi desenvolvido todo em JavaScript com uso do framework [
 
 **Observação:** É necessário ter o [Node.js](https://nodejs.org/) instalado no computador para executar o Front-End.
 
-Aqui que baixar o projeto, execute o seguinte comando para instalar as dependências:
+Assim que baixar o projeto, execute o seguinte comando para instalar as dependências:
 ```
 npm install
 ```
