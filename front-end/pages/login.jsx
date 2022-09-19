@@ -24,6 +24,7 @@ export default function Page() {
           id="email"
           label="Email"
           placeholder="Digite seu email"
+          onChange={(event) => { return; }}
           rounded_full
         />
 
@@ -31,6 +32,7 @@ export default function Page() {
           id="password"
           label="Senha"
           placeholder="Digite sua senha"
+          onChange={(event) => { return; }}
           rounded_full
         />
 
