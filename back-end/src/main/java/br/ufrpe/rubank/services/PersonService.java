@@ -6,5 +6,7 @@ public interface PersonService {
 
     public void create(Person person);
 
-    public Person findOne(String cpf);
+    public Person findByCpf(String cpf);
+
+    Person haveAccount(String cpf, Boolean haveAccount);
 }

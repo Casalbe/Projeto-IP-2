@@ -1,5 +1,6 @@
 package br.ufrpe.rubank.models;
 
+import org.springframework.cglib.core.Local;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -8,28 +9,32 @@ import java.time.LocalDate;
 @Document
 public class Person {
 
-    private String name;
     @Id
     private String cpf;
+    private String name;
     private LocalDate birthDate;
+    private String State;
     private String zipCode;
     private String email;
-    private String password;
+    private LocalDate registrationDate;
+    private Boolean haveAccount;
 
     public Person(
             String name,
             String cpf,
             LocalDate birthDate,
+            String state,
             String zipCode,
-            String email,
-            String password
+            String email
     ) {
         this.setName(name);
         this.setCpf(cpf);
         this.setBirthDate(birthDate);
+        this.setState(state);
         this.setEmail(email);
-        this.setPassword(password);
         this.setZipCode(zipCode);
+        this.setRegistrationDate(LocalDate.now());
+        this.setHaveAccount(false);
     }
 
     public String getName() { return name; }
@@ -41,13 +46,18 @@ public class Person {
     public LocalDate getBirthDate() { return birthDate; }
     public void setBirthDate(LocalDate birthDate) { this.birthDate = birthDate; }
 
+    public String getState() { return State; }
+    public void setState(String state) { State = state; }
+
     public String getZipCode() { return zipCode; }
     public void setZipCode(String zipCode) { this.zipCode = zipCode; }
 
     public String getEmail() { return email; }
     public void setEmail(String email) { this.email = email; }
 
-    public String getPassword() { return password; }
-    public void setPassword(String password) { this.password = password; }
+    public LocalDate getRegistrationDate() { return registrationDate; }
+    private void setRegistrationDate(LocalDate registrationDate) { this.registrationDate = registrationDate; }
 
+    public Boolean getHaveAccount() { return haveAccount; }
+    public void setHaveAccount(Boolean haveAccount) { this.haveAccount = haveAccount; }
 }
